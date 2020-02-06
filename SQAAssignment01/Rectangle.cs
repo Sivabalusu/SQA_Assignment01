@@ -15,13 +15,18 @@ namespace SQAAssignment01
             this.length = 1;
             this.width = 1;
         }
+        public Rectangle(int length,int width)
+        {
+            this.length = length;
+            this.width = width;
+        }
         public int GetLength()
         {
-            return length;
+            return this.length;
         }
         public int GetWidth()
         {
-            return width;
+            return this.width;
         }
         public void SetLength(int length)
         {
@@ -33,11 +38,11 @@ namespace SQAAssignment01
         }
         public int GetPerimeter()
         {
-            return 2 * (length + width);
+            return 2 * (this.length + this.width);
         }
-        public int Area()
+        public int GetArea()
         {
-            return length * width;
+            return this.length * this.width;
         }
     }
 }
