@@ -10,7 +10,7 @@ namespace SQAAssignment01
     {
         static void Main(string[] args)
         {
-
+            Rectangle rectangle = new Rectangle();
         }
     }
 }
