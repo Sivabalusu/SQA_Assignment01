@@ -36,13 +36,17 @@ namespace SQAAssignment01
                     Console.WriteLine("5. Get Rectangle Perimeter");
                     Console.WriteLine("6. Get Rectangle Area");
                     Console.WriteLine("7.Exit");
-                    choice = int.Parse(Console.ReadLine());
-                    if ((choice <= 0 || choice > 7))
+
+                    do
                     {
-                        Console.WriteLine("Invalid option Selected,Please select valid option");
-                    }
-                    else
-                    {
+                        choice = int.Parse(Console.ReadLine());
+                        if ((choice <= 0 || choice > 7))
+                        {
+                            Console.WriteLine("Invalid option Selected,Please select valid option");
+                        }
+                    } while ((choice <= 0 || choice > 7));
+                    
+                   
                         switch (choice)
                         {
                             case 1 :
@@ -71,7 +75,7 @@ namespace SQAAssignment01
                                 System.Environment.Exit(0);
                                 break;
                         }
-                    }
+                    
                 } while ((choice >= 1 && choice <= 7));
 
             }catch(Exception e)

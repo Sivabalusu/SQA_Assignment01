@@ -1,6 +1,8 @@
 C:\Users\sivab\source\repos\SQAAssignment01\SQAAssignment01\bin\Debug\SQAAssignment01.exe.config
 C:\Users\sivab\source\repos\SQAAssignment01\SQAAssignment01\bin\Debug\SQAAssignment01.exe
 C:\Users\sivab\source\repos\SQAAssignment01\SQAAssignment01\bin\Debug\SQAAssignment01.pdb
-C:\Users\sivab\source\repos\SQAAssignment01\SQAAssignment01\obj\Debug\SQAAssignment01.csprojAssemblyReference.cache
 C:\Users\sivab\source\repos\SQAAssignment01\SQAAssignment01\obj\Debug\SQAAssignment01.exe
 C:\Users\sivab\source\repos\SQAAssignment01\SQAAssignment01\obj\Debug\SQAAssignment01.pdb
+C:\Users\sivab\source\repos\SQAAssignment01\SQAAssignment01\bin\Debug\nunit.framework.dll
+C:\Users\sivab\source\repos\SQAAssignment01\SQAAssignment01\bin\Debug\nunit.framework.xml
+C:\Users\sivab\source\repos\SQAAssignment01\SQAAssignment01\obj\Debug\SQAAssignment01.csproj.CopyComplete

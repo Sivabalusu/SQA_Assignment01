@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SQAAssignment01
 {
-    class Rectangle
+    public class Rectangle
     {
         private int length;
         private int width;
@@ -28,13 +28,15 @@ namespace SQAAssignment01
         {
             return this.width;
         }
-        public void SetLength(int length)
+        public int SetLength(int length)
         {
             this.length = length;
+            return length;
         }
-        public void SetWidth(int width)
+        public int SetWidth(int width)
         {
             this.width = width;
+            return width;
         }
         public int GetPerimeter()
         {
